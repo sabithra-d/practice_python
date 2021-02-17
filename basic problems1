@@ -1,0 +1,74 @@
+print("hello world")
+print(3)
+
+if 2>1:
+    print("yes")
+
+if 5>2:
+ print("yes")
+if 5>2:
+    print("yes")
+
+if 5>2:
+ print("yes")
+ print("yes")
+
+#this is a comment.
+
+"""
+commend1
+commend2
+commend3
+"""
+
+x=5
+y="sabi"
+print(x)
+print(y)
+
+x=int(3.0)
+y=str(3)
+z=float(6)
+print(x)
+print(y)
+print(z)
+
+x=35
+y="sabi"
+print(type(x))
+print(type(y))
+
+a="kavinmovi"
+A="lithish"
+print(a)
+print(A)
+
+#camelcase
+myVariableName=5
+#pascal case
+MyVariableName=6
+#snake case
+my_variable_name=9
+
+
+
+x,y,z="appa","amma","akka"
+print(x)
+print(y)
+print(z)
+
+x=y=z="family"
+print(x)
+print(y)
+print(z)
+
+#unpack collections
+list=["apple","banana","orange"]
+x,y,z=list
+print(x)
+print(y)
+print(z)
+
+x="awesome"
+print("python is"+x)
+
