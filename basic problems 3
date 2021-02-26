@@ -1,0 +1,59 @@
+import random
+print(random.randrange(1,10))
+
+a=int(4)
+b=int(4.0)
+z=int("3")
+print(a)
+print(b)
+print(z)
+
+a=float(4)
+b=float(4.0)
+z=float("3")
+print(a)
+print(b)
+print(z)
+
+a=str(4)
+b=str(4.0)
+z=str("3")
+print(a)
+print(b)
+print(z)
+
+a="sabithra"
+d="""i am sabi
+btech.it
+3rd year
+sathyabama university
+chennai."""
+print(a)
+print(d)
+
+
+a="hello world!"
+print(a[11])
+
+for i in "apple":
+    print(i)
+
+a="sabithra"
+print(len(a))
+
+a="sabi is a engineering student"
+print("sabi" in a)
+
+x="sabithra is a sathyabama student"
+print("engineering "  in x)
+
+g="i am sabi"
+if "am" in g:
+    print("yes")
+
+f="i am sabi"
+if "apple" not in f:
+    print("yes")
+
+
+
