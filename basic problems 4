@@ -1,0 +1,34 @@
+a="sabithra"
+print(a[2:5])
+print(a[:5])
+print(a[2:])
+print(a[-5:-2])
+
+
+a="sathYabama"
+print(a.upper())
+
+a="SAbithra"
+print(a.lower())
+
+a=" i am an engineering student "
+print(a.strip())
+
+
+a="sabi is pretty"
+print(a.replace("p","b"))
+
+a="i am sabi"
+print(a.split())
+
+a="Hello"
+b="world"
+c=a+b
+print(c)
+
+a="sabithra"
+b="from sathyabama university"
+c=a+" "+b
+print(c)
+
+
