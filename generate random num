@@ -1,0 +1,6 @@
+#python does not have random() function to generate the random number in the given range.
+#python have build in module called "random" to generate the random number.
+
+
+import random
+print(random.randrange(1,5))
