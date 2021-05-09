@@ -1,0 +1,3 @@
+a=19
+b="Sabithra"
+print("I am "+b+" .I am "+ str(a)+" years old. ")
