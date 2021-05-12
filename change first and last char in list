@@ -1,0 +1,5 @@
+def swap(list):
+    list[0],list[-1] = list[-1],list[0]
+    return list
+list=[5,2,4,9]
+print(swap(list))
