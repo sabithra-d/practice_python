@@ -1,0 +1,6 @@
+def gcd(x,y):
+    while(y):
+        x, y = y, x % y
+    return x
+g=gcd(300,400)
+print(g)
