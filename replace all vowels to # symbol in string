@@ -1,0 +1,8 @@
+string=input("Enter the string:")
+string1=""
+for i in string:
+    if i in "AEIOUaeiou":
+        string1=string1+"#"
+    else:
+        string1=string1+i
+print(string1)        
