@@ -1,0 +1,20 @@
+def my_func():
+    l=[]
+    l1=[]
+    n=int(input())
+    for i in range(n):
+        n1=input()
+        l.append(n1)
+    #print(l)
+    for i in l:
+        j=int(i)
+        l1.append(j)
+    #print(l1)
+    result=[]
+    for i in range(len(l1)):
+        a=min(l1)
+        result.append(a)
+        l1.remove(a)
+    print(result)
+my_func()    
+    
