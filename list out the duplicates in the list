@@ -1,0 +1,18 @@
+n=int(input())
+l=[]
+for i in range(n):
+    n1=input()
+    l.append(n1)
+print(l)
+count=0
+l1=[]
+for i in l:
+     if l.count(i) > 1:
+         l1.append(i)
+result=list(set(l1))
+r=[]
+for i in result:
+    i=int(i)
+    r.append(i)
+print(r)    
+        
