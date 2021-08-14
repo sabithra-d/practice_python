@@ -1,0 +1,26 @@
+n=int(input())
+sum=0
+while(n != 0):
+	r = n % 10 
+	sum=sum*10+r 
+	n=n//10 
+print(sum)	
+//ip:54321
+op:12345
+
+n=int(input())
+arr=input().split()
+n1=int(input()
+l=[]
+for i in arr:
+  i=int(i)
+  l.append(i)
+count=0
+for i in l:
+  if(n1 % i == 0):
+    count+=1
+print(count)    
+  //ip=3
+       4 2 7
+       16
+  //op=2
