@@ -1,0 +1,25 @@
+n=int(input())
+sum=0
+while(n != 0):
+    r = n % 10
+    if(r % 2 != 0):
+        sum=sum+r
+    n=n//10
+print(sum)    
+//ip:2514795
+//op:27
+
+
+n=input()
+rev=n[::-1]
+print(rev)
+count=0
+for i in range(0,len(n)):
+    if(rev[i] == n[i]):
+    
+        count+=1
+print(count)
+//ip:abcda
+rev:adcba
+//op:
+3
