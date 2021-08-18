@@ -1,0 +1,10 @@
+s=input()
+l=[]
+for i in s:
+    if i not in l:
+        l.append(i)
+print(l)
+for i in l:
+    print(i,end="")
+   //ip:abcda
+   //op:abcd
